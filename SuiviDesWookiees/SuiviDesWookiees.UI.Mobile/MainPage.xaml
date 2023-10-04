@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:SuiviDesWookiees.UI.Mobile.ViewModels"
+             xmlns:models="clr-namespace:SuiviDesWookiees.Libs;assembly=SuiviDesWookiees.Libs"
+             x:DataType="vm:WookieeListViewModel"
+             x:Class="SuiviDesWookiees.UI.Mobile.MainPage">
+
+    <ContentPage.Resources>
+        <DataTemplate x:Key="wookieTemplate" x:DataType="models:Wookiee">
+            <Grid>
+                <Label Text="{Binding Surname}"></Label>
+                <Label Text="{Binding NickName}"></Label>
+            </Grid>
+        </DataTemplate>
+    </ContentPage.Resources>
+    
+    
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <ListView x:Name="lstWookiees" Grid.Row="1" Grid.ColumnSpan="2" ItemsSource="{ Binding Wookiees }" ItemTemplate="{Binding Source={StaticResource wookieTemplate}}"></ListView>
+
+                <Button Grid.Row="2" Grid.Column="0" x:Name="btnGoToAdd" Clicked="btnGoToAdd_Clicked"></Button>
+            </Grid>
+            
+            
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
