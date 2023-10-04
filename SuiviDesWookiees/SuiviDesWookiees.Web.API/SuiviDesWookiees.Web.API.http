@@ -1,0 +1,18 @@
+﻿@SuiviDesWookiees.Web.API_HostAddress = https://localhost:7007
+
+GET {{SuiviDesWookiees.Web.API_HostAddress}}/api/wookiees
+
+###
+
+POST {{SuiviDesWookiees.Web.API_HostAddress}}/api/wookiees
+Content-Type: application/json
+
+{
+  //CacheItemMultiple
+}
+
+###
+
+GET {{SuiviDesWookiees.Web.API_HostAddress}}/weatherforecast
+
+###

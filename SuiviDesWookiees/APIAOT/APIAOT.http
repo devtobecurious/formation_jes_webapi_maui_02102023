@@ -1,0 +1,11 @@
+@APIAOT_HostAddress = http://localhost:5013
+
+GET {{APIAOT_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{APIAOT_HostAddress}}/todos/1
+Accept: application/json
+
+###
