@@ -34,7 +34,9 @@
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
-                <ListView x:Name="lstWookiees" Grid.Row="1" Grid.ColumnSpan="2" ItemsSource="{ Binding Wookiees }" ItemTemplate="{Binding Source={StaticResource wookieTemplate}}"></ListView>
+                <!--<ListView x:Name="lstWookiees" Grid.Row="1" Grid.ColumnSpan="2" ItemsSource="{ Binding Wookiees }" ItemTemplate="{Binding Source={StaticResource wookieTemplate}}"></ListView>-->
+
+                <CollectionView></CollectionView>
 
                 <Button Grid.Row="2" Grid.Column="0" x:Name="btnGoToAdd" Clicked="btnGoToAdd_Clicked"></Button>
             </Grid>

@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIAOT", "APIAOT\APIAOT.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "maui", "maui", "{0EBEA690-9398-45C5-A062-F784C220F682}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMaui01", "TestMaui01\TestMaui01.csproj", "{3E948F80-BA4F-4F90-95A7-79512DF230E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMaui01", "TestMaui01\TestMaui01.csproj", "{3E948F80-BA4F-4F90-95A7-79512DF230E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuiviDesWookiees.UI.Mobile", "SuiviDesWookiees.UI.Mobile\SuiviDesWookiees.UI.Mobile.csproj", "{A65441A0-CBC6-4AA2-A52D-340A43282EFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuiviDesWookiees.UI.Mobile", "SuiviDesWookiees.UI.Mobile\SuiviDesWookiees.UI.Mobile.csproj", "{A65441A0-CBC6-4AA2-A52D-340A43282EFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomComponent", "CustomComponent\CustomComponent.csproj", "{80F6220A-96CD-4F1D-B516-FBE330CE1B1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +97,10 @@ Global
 		{A65441A0-CBC6-4AA2-A52D-340A43282EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A65441A0-CBC6-4AA2-A52D-340A43282EFD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A65441A0-CBC6-4AA2-A52D-340A43282EFD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{80F6220A-96CD-4F1D-B516-FBE330CE1B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F6220A-96CD-4F1D-B516-FBE330CE1B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F6220A-96CD-4F1D-B516-FBE330CE1B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F6220A-96CD-4F1D-B516-FBE330CE1B1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{513285EE-EEBC-4F9D-BAFB-667B7FB99A53} = {72902323-42FD-4110-B64C-967F35A49B9B}
 		{3E948F80-BA4F-4F90-95A7-79512DF230E0} = {0EBEA690-9398-45C5-A062-F784C220F682}
 		{A65441A0-CBC6-4AA2-A52D-340A43282EFD} = {0EBEA690-9398-45C5-A062-F784C220F682}
+		{80F6220A-96CD-4F1D-B516-FBE330CE1B1C} = {0EBEA690-9398-45C5-A062-F784C220F682}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9094681F-E19C-4AC2-97F3-FDC2BAA120E7}
